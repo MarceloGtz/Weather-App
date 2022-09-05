@@ -1,7 +1,7 @@
-# Weather Today
+# Weather App
 
 Created using the [Open Weather API](https://openweathermap.org/api), thanks!.  
-Check out my app running on netlify here: <a href="https://spectacular-medovik-d7b0f4.netlify.app/" target="_blank">Weather Today</a>
+Check out my app running on netlify here: <a href="https://tourmaline-fudge-61a3b2.netlify.app/" target="_blank">Weather App</a>
 
 ## Screenshots
 
@@ -19,13 +19,13 @@ Check out my app running on netlify here: <a href="https://spectacular-medovik-d
 Clone the project
 
 ```bash
-  git clone https://github.com/MarceloGtz/Random-Quote-Gen.git
+  git clone https://github.com/MarceloGtz/Weather-App.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Random-Quote-Gen
+  cd Weather-App
 ```
 
 Install dependencies
