@@ -28,7 +28,7 @@ body {
 .App {
   width: 500px;
   background-color: whitesmoke;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
   border-radius: 0.25rem;
   padding: 1rem 2rem;
   min-height: 500px;
@@ -38,7 +38,7 @@ body {
 }
 
 .App:hover {
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.85);
 }
 
 .App-data {
@@ -92,7 +92,7 @@ button:hover {
   background-position: center bottom;
 }
 
-.Mis {
+.Mist {
   background: url('../assets/images/mist.jpg');
   background-size: cover;
   background-position: center center;

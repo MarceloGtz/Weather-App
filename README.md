@@ -47,6 +47,7 @@ Start the server
 - JavaScript
 - React
 - JSON
+- API
 
 ## Acknowledgements
 
