@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.App-ctn {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  width: 500px;
+  background-color: whitesmoke;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  padding: 1rem 2rem;
+  min-height: 500px;
+  text-align: center;
+  transition: box-shadow 350ms ease-in-out;
+  border: 1px solid gray;
+}
+
+.App:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.6);
+}
+
+.App-data {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.App-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: drop-shadow(4px 4px 10px black);
+}
+
+.App-weather-info {
+  text-transform: capitalize;
+}
+
+button {
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 2px;
+  padding: 0.25rem 0.5rem;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: all 350ms ease-in-out;
+}
+
+button:hover {
+  background-color: #ececec;
+}
+
+/* Weather Main Configs */
+
+.Clear {
+  background: url('../assets/images/clear.jpg');
+  background-size: cover;
+  background-position: center 15%;
+}
+
+.Snow {
+  background: url('../assets/images/snow.jpg');
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.Mis {
+  background: url('../assets/images/mist.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.Clouds {
+  background: url('../assets/images/clouds.jpg');
+  background-size: cover;
+  background-position: right top;
+}
+
+.Thunderstorm {
+  background: url('../assets/images/thunderstorm.jpg');
+  background-size: cover;
+  background-position: right 60%;
+}
+
+.Rain {
+  background: url('../assets/images/rain.jpg');
+  background-size: cover;
+  background-position: center center;
+}

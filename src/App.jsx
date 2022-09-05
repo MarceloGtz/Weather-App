@@ -1,10 +1,10 @@
-import './reset.css';
 import './App.css';
+import WeatherApp from './components/WeatherApp';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>¡Hola Mundo!</h1>
+    <div>
+      <WeatherApp />
     </div>
   );
 }
