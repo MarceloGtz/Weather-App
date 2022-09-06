@@ -8,10 +8,9 @@ import getBackground from '../utils/getBackground';
 const WeatherApp = () => {
   const [data, setData] = useState({});
   const [isFahrenheit, setIsFahrenheit] = useState(true);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setIsLoading(true);
     navigator.geolocation.getCurrentPosition(success);
 
     function success(pos) {
@@ -20,7 +19,8 @@ const WeatherApp = () => {
         .get(
           `https://api.openweathermap.org/data/2.5/weather?lat=${crd.latitude}&lon=${crd.longitude}&appid=40c38ae2279823921c8e5490f120dec6`
         )
-        .then((res) => setData(res.data), setIsLoading(false));
+        .then((res) => setData(res.data), setIsLoading(false))
+        .finally(() => setIsLoading(false));
     }
   }, []);
   return (
